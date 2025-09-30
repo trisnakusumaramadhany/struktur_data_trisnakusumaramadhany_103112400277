@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string> // Jangan lupa sertakan header <string>
+#include <vector> // Disarankan untuk penggunaan lebih lanjut
+
+using namespace std;
+
+int main() {
+
+    string kampus[] = {"Universitas Telkom", "Universitas Indonesia", "Institut Teknologi Bandung", "Universitas Gadjah Mada", "Universitas Airlangga"};
+
+    cout << "Daftar Nama Kampus:" << endl;
+
+    // Menggunakan range-based for loop untuk menampilkan setiap elemen
+    for (const string& kampusTOP : kampus) {
+        cout << "- " << kampusTOP << endl;
+    }
+    return 0;
+}
