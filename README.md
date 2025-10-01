@@ -3,5 +3,5 @@
 <pre>
 Nama : Trisna Kusuma Ramadhany
 NIM : 103112400277
-Kelas : 12-IF-05
+Kelas : Sains Data-03
 </pre>

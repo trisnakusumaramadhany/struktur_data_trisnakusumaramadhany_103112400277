@@ -1,7 +1,7 @@
 # Template Laporan Praktikum Struktur Data
 
 ## 1. Nama, NIM, Kelas
-- **Nama**: Trisna Kusuma Ramadhany
+- **Nama**: Trisna Kusuma Rama
 - **NIM**: 103112400277
 - **Kelas**: 12 IF 05
 
