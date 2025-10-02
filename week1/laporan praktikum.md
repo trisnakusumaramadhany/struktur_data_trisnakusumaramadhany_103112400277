@@ -76,7 +76,7 @@ output :
 ![alt text](outputunguided3.png)
 
 ## 6. Kesimpulan
- Dari praktikum yang saya lakukan  dapat disimpulkan bahwa tujuan untuk memahami dasar-dasar pemrograman telah tercapai, mulai dari penggunaan percabangan, operasi aritmatika, konversi data, hingga perulangan bersarang. Latihan Guided membantu memahami konsep dasar, sedangkan latihan Unguided melatih logika dalam menyelesaikan masalah secara mandiri. 
+ Dari praktikum yang saya lakukan  dapat disimpulkan bahwa tujuan untuk memahami dasar-dasar pemrograman telah tercapai, mulai dari penggunaan percabangan, operasi aritmatika, konversi data, hingga perulangan bersarang. Latihan Guided membantu memahami konsep dasar, sedangkan latihan Unguided melatih logika dalam menyelesaikan masalah secara mandiri dan bisa memahaminya.
 ## 7. Referensi
 1. GeeksforGeeks. “C++ Programming Language.” https://www.geeksforgeeks.org/c-plus-plus/
 2. W3Schools. “C++ Tutorial.” https://www.w3schools.com/cpp/
