@@ -16,8 +16,13 @@ Struktur data adalah cara mengorganisasikan, menyimpan, dan mengelola data agar 
 
 ## 4. Guided
 ### 4.1 Guided 1
+![alt text](diskon.png)
+
 [Penjelasan tentang guided pertama, termasuk kode yang telah diberikan dan cara kerjanya.]
 
+output:
+
+![alt text](outputdiskon.png)
 ### 4.2 Guided 2
 [Penjelasan tentang guided kedua, meliputi kode dan penjelasan fungsinya.]
 
