@@ -1,18 +1,18 @@
 # Template Laporan Praktikum Struktur Data
 
 ## 1. Nama, NIM, Kelas
-- **Nama**: Trisna Kusuma Rama
+- **Nama**: Trisna Kusuma Ramadhany
 - **NIM**: 103112400277
 - **Kelas**: 12 IF 05
 
 ## 2. Motivasi Belajar Struktur Data
-[Isi dengan motivasi Anda dalam mempelajari struktur data, misalnya pentingnya struktur data dalam pengolahan informasi dan implementasi dalam dunia nyata.]
+[saya termotovasi di struktur data karena melatih berpikir logis Selain itu, penguasaan struktur data juga menjadi bekal berharga untuk menghadapi tantangan dunia kerja, karena hampir semua perusahaan IT menguji kemampuan ini dalam seleksi.]
 
 ## 3. Dasar Teori
-Contoh: Struktur data adalah cara untuk menyimpan dan mengorganisir data dalam komputer agar dapat digunakan secara efisien. Berikut adalah teori dasar mengenai **Graf** dan **Pohon**:
+Struktur data adalah cara mengorganisasikan, menyimpan, dan mengelola data agar dapat digunakan secara efisien dalam pemrograman. Dengan struktur data, data tidak hanya disimpan secara acak, tetapi diatur dalam bentuk tertentu seperti array, linked list, stack, queue, tree, atau graph, sehingga lebih mudah diakses, dimodifikasi, dan diolah sesuai kebutuhan. Pemilihan struktur data yang tepat sangat penting karena berpengaruh langsung terhadap kecepatan eksekusi program, penggunaan memori, serta efektivitas dalam menyelesaikan suatu permasalahan komputasi.. Berikut adalah teori dasar mengenai **Graf** dan **Pohon**:
 
-- **Graf**: Merupakan struktur data yang digunakan untuk menggambarkan hubungan antar objek yang disebut simpul (vertex) dan hubungan antar simpul yang disebut busur (edge).
-- **Pohon**: Struktur data hierarkis yang terdiri dari simpul dan tepi, dengan satu simpul sebagai akar.
+- **Graf**: adalah sekumpulan simpul (vertex) yang saling terhubung melalui sisi (edge). Graf digunakan untuk merepresentasikan hubungan antar objek, misalnya jaringan komputer, peta jalan, atau hubungan pertemanan di media sosial. Graf bisa berbentuk berarah (directed graph) atau tidak berarah (undirected graph), dan dapat memiliki bobot pada sisinya (weighted graph)..
+- **Pohon**: adalah struktur data hierarki yang terdiri dari simpul (node) dengan satu simpul khusus sebagai akar (root) dan cabang-cabang yang terhubung tanpa membentuk siklus. Pohon merupakan kasus khusus dari graf yang terhubung dan tidak memiliki siklus. Contohnya adalah struktur folder pada komputer, silsilah keluarga, atau binary tree dalam algoritma pencarian.
 
 ## 4. Guided
 ### 4.1 Guided 1
