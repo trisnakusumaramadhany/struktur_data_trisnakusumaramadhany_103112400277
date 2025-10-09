@@ -16,16 +16,16 @@ Struktur data adalah cara mengorganisasikan, menyimpan, dan mengelola data agar 
 
 ## 4. Guided
 ### 4.1 Guided 1
-![alt text](diskon.png)
+![alt text](SS/guided1.png))
 
-Penjelasan : Program ini bertujuan untuk menghitung diskon belanja jika total belanja lebih dari RP. 30.000 . Jika memenuhi syarat, maka pembeli akan mengadaptkan diskon 10%. Jika tidak, maka akan muncul pesan kalau pesanan masih kurang.
+Penjelasan : array BukuPerHari berisi tujuh elemen yang merepresentasikan jumlah buku yang dibaca setiap hari, mulai dari hari pertama hingga hari ketujuh. Variabel TotalBuku diinisialisasi dengan nilai nol untuk menampung total buku yang dibaca sepanjang minggu. Program menampilkan judul “Laporan baca buku mingguan”, lalu menggunakan perulangan for untuk menelusuri setiap elemen array. Di dalam perulangan, program menampilkan jumlah buku yang dibaca pada masing-masing hari dan menambahkan nilai tersebut ke variabel TotalBuku. Setelah perulangan selesai, program menampilkan total keseluruhan buku yang dibaca selama satu minggu. Dengan demikian, program ini membantu menampilkan data harian serta menghitung total bacaan mingguan secara otomatis.
 
 output:
 
-![alt text](outputdiskon.png)
+![alt text](SS/outputguided1.png)
 
 ### 4.2 Guided 2
-![alt text](jarijari.png)
+![alt text](SS/guided2.png)
 
 Penjelasan : Program ini digunakan untuk mengubah suhu dari satuan Celcius ke Fahrenheit, lalu memberikan komentar lucu berdasarkan hasilnya.
 
