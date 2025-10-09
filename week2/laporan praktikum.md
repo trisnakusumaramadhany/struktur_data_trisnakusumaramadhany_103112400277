@@ -11,8 +11,9 @@
 ## 3. Dasar Teori
 Struktur data adalah cara mengorganisasikan, menyimpan, dan mengelola data agar dapat digunakan secara efisien dalam pemrograman. Dengan struktur data, data tidak hanya disimpan secara acak, tetapi diatur dalam bentuk tertentu seperti array, linked list, stack, queue, tree, atau graph, sehingga lebih mudah diakses, dimodifikasi, dan diolah sesuai kebutuhan. Pemilihan struktur data yang tepat sangat penting karena berpengaruh langsung terhadap kecepatan eksekusi program, penggunaan memori, serta efektivitas dalam menyelesaikan suatu permasalahan komputasi.. Berikut adalah teori dasar mengenai **Graf** dan **Pohon**:
 
-- **Graf**: adalah sekumpulan simpul (vertex) yang saling terhubung melalui sisi (edge). Graf digunakan untuk merepresentasikan hubungan antar objek, misalnya jaringan komputer, peta jalan, atau hubungan pertemanan di media sosial. Graf bisa berbentuk berarah (directed graph) atau tidak berarah (undirected graph), dan dapat memiliki bobot pada sisinya (weighted graph)..
-- **Pohon**: adalah struktur data hierarki yang terdiri dari simpul (node) dengan satu simpul khusus sebagai akar (root) dan cabang-cabang yang terhubung tanpa membentuk siklus. Pohon merupakan kasus khusus dari graf yang terhubung dan tidak memiliki siklus. Contohnya adalah struktur folder pada komputer, silsilah keluarga, atau binary tree dalam algoritma pencarian.
+- **Konsep Array**: Merupakan salah satu struktur data dasar yang digunakan untuk menyimpan sekumpulan data yang memiliki tipe sama di dalam satu variabel. Setiap elemen dalam array disimpan secara berurutan di memori komputer dan dapat diakses menggunakan indeks, yaitu nomor urut yang dimulai dari nol. Dengan adanya array, penyimpanan data yang jumlahnya banyak menjadi lebih efisien karena tidak perlu mendeklarasikan banyak variabel. Misalnya, untuk mencatat jumlah buku yang dibaca selama tujuh hari, cukup digunakan satu array dengan tujuh elemen yang mewakili masing-masing hari. Array dapat berbentuk satu dimensi seperti daftar nilai, dua dimensi seperti tabel, atau bahkan multidimensi untuk data yang lebih kompleks.
+- **Konsep Pointer**: variabel khusus dalam pemrograman yang digunakan untuk menyimpan alamat memori dari variabel lain, bukan nilai langsung dari variabel tersebut. Dengan pointer, program dapat mengakses dan memanipulasi data secara tidak langsung melalui alamat memori yang ditunjuknya. Konsep ini sangat penting karena memungkinkan efisiensi dalam pengelolaan memori serta memberikan fleksibilitas tinggi dalam pemrosesan data. Dalam penggunaannya, pointer dapat menunjuk ke berbagai tipe data, seperti integer, float, atau bahkan ke struktur data yang lebih kompleks.
+- **Konsep Fungsi dan prosedur**: merupakan konsep dasar dalam pemrograman yang digunakan untuk membagi program menjadi bagian-bagian kecil yang terstruktur dan mudah dikelola. Fungsi adalah blok kode yang memiliki tugas tertentu dan dapat mengembalikan suatu nilai setelah proses dijalankan. Biasanya fungsi menerima data melalui parameter, melakukan perhitungan atau operasi, lalu mengembalikan hasilnya ke bagian program yang memanggilnya.prosedur mirip dengan fungsi, namun tidak mengembalikan nilai; prosedur hanya menjalankan serangkaian instruksi tertentu untuk tujuan tertentu, seperti menampilkan data atau mengubah isi variabel.
 
 ## 4. Guided
 ### 4.1 Guided 1
@@ -27,56 +28,33 @@ output:
 ### 4.2 Guided 2
 ![alt text](SS/guided2.png)
 
-Penjelasan : Program ini digunakan untuk mengubah suhu dari satuan Celcius ke Fahrenheit, lalu memberikan komentar lucu berdasarkan hasilnya.
+Penjelasan : variabel hargaProduk bertipe float diinisialisasi dengan nilai 50.000 yang merepresentasikan harga suatu produk. Kemudian, dibuat sebuah pointer bernama ptrHarga yang bertipe float*, dan pointer ini diisi dengan alamat memori dari hargaProduk menggunakan operator &. Dengan demikian, ptrHarga menunjuk langsung ke lokasi memori tempat nilai hargaProduk disimpan. Program kemudian menampilkan harga awal produk dan alamat memorinya. Setelah itu, dilakukan operasi pemberian diskon sebesar 10% melalui pointer, yaitu dengan mengalikan nilai yang ditunjuk oleh pointer (*ptrHarga) dengan 0.9. Karena pointer menunjuk ke variabel yang sama, perubahan ini juga mengubah nilai hargaProduk secara langsung. Terakhir, program menampilkan harga produk setelah diskon. Program ini memperlihatkan bagaimana pointer dapat digunakan untuk memanipulasi data secara tidak langsung melalui alamat memori dari suatu variabel.
 
 output :
 
-![alt text](outputjarijari.png)
+![alt text](SS/outputguided2.png)
 
 ### 4.3 Guided 3
-![alt text](suhu.png)
+![alt text](SS/guided3.png)
 
-Penjelasan : Program ini digunakan untuk mendemonstrasikan penggunaan operator tanda plus (+) pada ekspresi aritmatika. Pada program tersebut, variabel r diberi nilai awal 20, kemudian nilai variabel s dihitung menggunakan ekspresi 20 + + + r. Ekspresi tersebut sebenarnya dibaca sebagai 20 + (+(+r)), sehingga nilai r tetap 20. Hasil dari penjumlahan 20 dengan 20 disimpan ke dalam variabel s, yaitu 40. Setelah itu, program menampilkan nilai aktual dari variabel r dan s ke layar untuk menunjukkan bahwa variabel r tidak berubah, sedangkan s berisi hasil perhitungan.
+Penjelasan : Program ini menghitung rata-rata nilai tugas dan UTS seorang siswa, lalu menampilkan profilnya sebelum dan sesudah mendapatkan bonus nilai. Fungsi hitungratarata() menghitung rata-rata dua nilai, cetakProfil() menampilkan nama dan nilai siswa, sedangkan beriNilaibonus() menambah nilai sebesar 5 melalui parameter referensi agar perubahan langsung berlaku pada variabel aslinya.
 
 output :
 
-![alt text](outputsuhu.png)
+![alt text](SS/outputguided3.png)
 
 ## 5. Unguided
 ### 5.1 Unguided 1
-![alt text](unguided1.png)
+![alt text](SS/unguided1.png)
 
-Penjelasan : Program di atas adalah contoh program sederhana untuk melakukan operasi hitung dasar dengan dua bilangan bertipe float. Pertama, program mendefinisikan dua variabel, yaitu a dan b. Setelah itu, program meminta pengguna untuk memasukkan dua bilangan melalui cin.Setelah pengguna memberikan input, program langsung menghitung dan menampilkan hasil dari:
-
-Penjumlahan (a + b)
-Pengurangan (a - b)
-Perkalian (a * b)
-Khusus untuk operasi pembagian, program menggunakan struktur if-else agar tidak terjadi kesalahan ketika membagi dengan nol. Jika nilai b tidak sama dengan nol, maka hasil pembagian a / b akan ditampilkan. Tetapi jika nilai b adalah nol, program akan menampilkan pesan bahwa pembagian tidak bisa dilakukan.
+Penjelasan : untuk menghitung rata-rata nilai seorang siswa dari nilai tugas dan nilai UTS, kemudian menampilkan profil siswa sebelum dan sesudah mendapatkan tambahan nilai bonus. Pada awal program, dibuat beberapa fungsi untuk mempermudah proses. Fungsi pertama menghitung nilai rata-rata dari dua nilai yang diberikan, yaitu nilai tugas dan nilai UTS, lalu mengembalikan hasilnya sebagai nilai akhir. Fungsi kedua digunakan untuk menampilkan profil siswa dengan menuliskan nama serta nilai yang dimilikinya ke layar. Fungsi ketiga berfungsi menambahkan nilai bonus sebesar lima poin pada nilai yang sudah ada, dan karena menggunakan parameter referensi, perubahan nilainya akan langsung memengaruhi nilai aslinya.
 
 output :
 
-![alt text](outputunguided1.png)
-
-### 5.2 Unguided 2
-![alt text](guided2.png)
-
-Penjelasan :  Program ini berfungsi untuk mengubah angka yang dimasukkan pengguna menjadi bentuk tulisan dalam bahasa Indonesia dengan rentang 0 sampai 100. Pertama, program mendefinisikan dua buah array string, yaitu satuan yang menyimpan kata untuk angka 0 sampai 9, dan belasan yang menyimpan kata untuk angka 10 sampai 19. Setelah itu, program meminta pengguna memasukkan sebuah angka, lalu angka tersebut diproses menggunakan struktur percabangan if-else. Jika angka kurang dari 10, program langsung menampilkan kata dari array satuan. Jika angka berada di antara 10 sampai 19, program menampilkan kata dari array belasan dengan indeks yang disesuaikan. Untuk angka 20 sampai 99, program akan membagi angka dengan 10 untuk mendapatkan nilai puluhan, lalu menampilkannya dengan tambahan kata "puluh". Jika angka tersebut tidak bulat puluhan, maka sisa bagi 10 akan digunakan untuk menampilkan satuannya. Jika angka yang dimasukkan adalah 100, maka program langsung menampilkan "seratus". Sedangkan jika angka yang dimasukkan berada di luar rentang 0 sampai 100, program akan menampilkan pesan "eror!".
-
-output :
-
-![alt text](outputunguided2.png)
-
-### 5.3 Unguided 3
-![alt text](unguided3.png)
-
-Penjelasan : Program ini berfungsi untuk mencetak pola angka dengan menggunakan perulangan bersarang (nested loop). Pertama, program meminta pengguna memasukkan sebuah bilangan bulat n sebagai batas pola. Pada perulangan pertama, nilai i dimulai dari n dan terus berkurang hingga 1. Di dalamnya terdapat perulangan lain dengan variabel j yang menampilkan deret angka menurun dari i hingga 1. Setelah angka-angka tersebut ditampilkan, program menambahkan sebuah tanda bintang * di akhir baris. Selanjutnya, terdapat perulangan kedua yang menampilkan deret angka naik dari 1 hingga i, kemudian diakhiri dengan pindah baris. Dengan kombinasi kedua perulangan ini, program menghasilkan pola simetris berupa angka menurun di sebelah kiri, tanda bintang di tengah, dan angka menaik di sebelah kanan. Sebagai contoh, jika pengguna memasukkan angka 3, keluaran yang ditampilkan adalah 321123 pada baris pertama, 2112 pada baris kedua, dan 1*1 pada baris terakhir.
-
-output :
-
-![alt text](outputunguided3.png)
+![alt text](SS/outputunguided1.png)
 
 ## 6. Kesimpulan
- Dari praktikum yang saya lakukan  dapat disimpulkan bahwa tujuan untuk memahami dasar-dasar pemrograman telah tercapai, mulai dari penggunaan percabangan, operasi aritmatika, konversi data, hingga perulangan bersarang. Latihan Guided membantu memahami konsep dasar, sedangkan latihan Unguided melatih logika dalam menyelesaikan masalah secara mandiri dan bisa memahaminya.
+ Dari praktikum yang saya lakukan  dapat disimpulkan bahwa tujuan bahwa praktikum berhasil membantu memahami dasar-dasar pemrograman dan penerapan struktur data sederhana. Melalui latihan Guided dan unguided.juga memberikan pemahaman tentang penggunaan logika percabangan, operasi aritmatika, manipulasi data, dan perulangan bersarang yang menjadi fondasi penting dalam mempelajari struktur data
 ## 7. Referensi
 1. GeeksforGeeks. “C++ Programming Language.” https://www.geeksforgeeks.org/c-plus-plus/
 2. W3Schools. “C++ Tutorial.” https://www.w3schools.com/cpp/
