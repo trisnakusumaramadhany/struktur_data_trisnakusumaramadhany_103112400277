@@ -1,0 +1,35 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+float hitungratarata(int nilaiTugas, int nilaiUTS){
+    return(nilaiTugas + nilaiUTS) / 2.0f;
+}
+
+void cetakProfil(string nama,float nilai){
+    cout << "Nama : " << nama << endl;
+    cout << "Nilai : " << nilai << endl;
+}
+
+void beriNilaibonus(float &nilai){
+    nilai += 5.0f;
+}
+
+int main(){
+    string namaSiswa = "Rusdi";
+    int tugas = 80, uts = 90;
+
+    float nilaiAkhir = hitungratarata(tugas, uts);
+
+    cout << "Profil Awal" << endl;
+    cetakProfil(namaSiswa, nilaiAkhir);
+
+    cout << "\nMemberikan nilai bonus..." << endl;
+    beriNilaibonus(nilaiAkhir);
+
+    cout << "\nProfil setelah Bonus" << endl;
+    cetakProfil(namaSiswa, nilaiAkhir);
+
+    return 0;
+}
