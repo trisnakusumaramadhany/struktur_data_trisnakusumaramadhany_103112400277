@@ -1,3 +1,5 @@
+# Laporan Praktikum Struktur Data
+
 ## 1. Nama, NIM, Kelas
 - **Nama**: Trisna Kusuma Ramadhany
 - **NIM**: 103112400277
