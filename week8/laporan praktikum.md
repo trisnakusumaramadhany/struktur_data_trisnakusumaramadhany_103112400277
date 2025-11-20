@@ -6,7 +6,7 @@
 ## 2. Motivasi Belajar Struktur Data
 [saya termotovasi di struktur data karena melatih berpikir logis Selain itu, penguasaan struktur data juga menjadi bekal berharga untuk menghadapi tantangan dunia kerja, karena hampir semua perusahaan IT menguji kemampuan ini dalam seleksi.]
 
-## 3. Dasar Teoris,
+## 3. Dasar Teori
 Struktur data adalah cara untuk menyimpan dan mengelola data agar dapat digunakan secara efisien oleh komputer. Salah satu struktur data yang paling umum digunakan adalah queue, karena sangat cocok untuk situasi antrean atau pemrosesan data secara berurutan. Queue banyak dipakai pada sistem antrian layanan, manajemen proses di sistem operasi, buffer data, hingga simulasi antrian pada aplikasi.
 
 - **Queue** adalah struktur data yang menerapkan prinsip FIFO (First In, First Out). Artinya, elemen yang pertama masuk ke dalam antrian akan menjadi elemen pertama yang keluar. Operasi dasar pada queue meliputi: a. enqueue() -> menambahkan elemen ke bagian belakang antrian. b. dequeue() -> menghapus elemen paling depan dari antrian. c. isEmpty() -> mengecek apakah antrian kosong. d. isFull() -> mengecek apakah antrian sudah penuh (untuk queue berbasis array). Konsep queue sangat sering digunakan dalam sistem nyata yang sifatnya “datang duluan dilayani duluan”, seperti antrean printer, penjadwalan proses, dan buffer multimedia.
